@@ -1,14 +1,46 @@
-partii=[]
-f = open('input.txt', 'r',  encoding='utf8')
+from functools import reduce
+
+party_voices = {}
+party_places = {}
+party_remains = {}
+party_names = []
+
+f = open('input.txt', 'r', encoding='utf8')
 while 1 == 1:
     line = f.readline()
     if not line:
         break
     s = line.strip().split()
-    print(s)
-f.close
+    party_voices[str(' '.join(s[:-1]))] = int(s[-1])
+    party_names.append(str(' '.join(s[:-1])))
+f.close()
 
-# Статья 83 закона “О выборах депутатов Государственной Думы Федерального Собрания Российской Федерации” определяет следующий алгоритм 
+selective_partial = sum(party_voices.values()) / 450
+
+for key in party_voices.keys():
+    party_places[key] = party_voices[key] // selective_partial
+    party_remains[key] = party_voices[key] / selective_partial - party_places[key]
+
+vacant_places = 450 - sum(party_places.values())
+
+while vacant_places > 0:
+    max_value = 0
+    max_party = ''
+    for party in party_remains:
+        if party_remains[party] > max_value:
+            max_value = party_remains[party]
+            max_party = party
+        elif party_remains[party] == max_value:
+            if party_voices[party] > party_voices[max_party]:
+                max_party = party
+    party_places[max_party] += 1
+    vacant_places -= 1
+
+for party in party_names:
+    print(party, int(party_places[party]))
+
+
+# Статья 83 закона “О выборах депутатов Государственной Думы Федерального Собрания Российской Федерации” определяет следующий алгоритм
 # пропорционального распределения мест в парламенте.
 
 # Необходимо распределить 450 мест между партиями, участвовавших в выборах. 
