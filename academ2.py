@@ -16,21 +16,27 @@ while 1 == 1:
 f.close()
 
 selective_partial = sum(party_voices.values()) / 450
+print(f'{selective_partial=}')
 
 for key in party_voices.keys():
-    party_places[key] = party_voices[key] // selective_partial
-    party_remains[key] = party_voices[key] / selective_partial - party_places[key]
+    if party_voices[key] >= selective_partial:
+        party_places[key] = party_voices[key] // selective_partial
+        party_remains[key] = party_voices[key] / selective_partial - party_places[key]
+    else:
+        party_places[key] = 0
+        party_remains[key] = 0
 
+print(party_places.keys())
 vacant_places = 450 - sum(party_places.values())
-
+last_party = ''
 while vacant_places > 0:
     max_value = 0
     max_party = ''
     for party in party_remains:
-        if party_remains[party] > max_value:
+        if party_remains[party] > max_value and party != last_party:
             max_value = party_remains[party]
             max_party = party
-        elif party_remains[party] == max_value:
+        elif party_remains[party] == max_value and party != last_party:
             if party_voices[party] > party_voices[max_party]:
                 max_party = party
     party_places[max_party] += 1
@@ -39,6 +45,18 @@ while vacant_places > 0:
 for party in party_names:
     print(party, int(party_places[party]))
 
+print(f'{party_places=}')
+print(f'{sum(party_remains.values())}')
+# Party 1 57
+# Party 2 109
+# Party 3 1
+# Party 4 109
+# Party 5 9
+# Party 6 6
+# Party 7 0
+# Party 8 0
+# Party 9 8
+# Party 10 151
 
 # Статья 83 закона “О выборах депутатов Государственной Думы Федерального Собрания Российской Федерации” определяет следующий алгоритм
 # пропорционального распределения мест в парламенте.
