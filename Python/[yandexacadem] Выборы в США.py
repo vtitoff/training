@@ -1,5 +1,5 @@
 dictionary = {}
-f = open('input.txt', 'r',  encoding='utf8')
+f = open('input.txt', 'r', encoding='utf8')
 while 1 == 1:
     line = f.readline()
     if not line:

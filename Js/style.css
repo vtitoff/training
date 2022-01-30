@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(50, 42, 66);
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(230, 100, 197);
+}
+.container{
+    max-width: 1330px;
+}

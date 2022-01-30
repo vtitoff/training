@@ -17,6 +17,7 @@ f.close()
 
 selective_partial = sum(party_voices.values()) / 450
 print(f'{selective_partial=}')
+print(f'{party_voices=}')
 
 for key in party_voices.keys():
     if party_voices[key] >= selective_partial:
@@ -26,7 +27,6 @@ for key in party_voices.keys():
         party_places[key] = 0
         party_remains[key] = 0
 
-print(party_places.keys())
 vacant_places = 450 - sum(party_places.values())
 last_party = ''
 while vacant_places > 0:
@@ -46,7 +46,8 @@ for party in party_names:
     print(party, int(party_places[party]))
 
 print(f'{party_places=}')
-print(f'{sum(party_remains.values())}')
+# print(f'{sum(party_remains.values())}')
+
 # Party 1 57
 # Party 2 109
 # Party 3 1

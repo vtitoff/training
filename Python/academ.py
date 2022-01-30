@@ -1,4 +1,4 @@
-f = open('input.txt', 'r',  encoding='utf8')
+f = open('input.txt', 'r', encoding='utf8')
 dictionary = {}
 massive = []
 items={}
