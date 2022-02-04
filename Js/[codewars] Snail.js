@@ -1,29 +1,17 @@
 snail = function (array) {
-    if (array === [[]]) {
-        return []
-    }
     let answer = []
     while (array.length >= 1) {
-        //right
-        let firstStep = array[0].map((item) => {
-            answer.push(item)
-        })
+        array[0].map((item) => {answer.push(item)})
         array.splice(0, 1);
-        console.log(`array ${array}`)
-        //down
         for (i of array) {
             answer.push(i[i.length - 1]);
             i.pop();
         }
-        console.log(`array ${array}`)
-        //left
         if(array.length>0){
              for (i of array[array.length - 1].reverse()) {
             answer.push(i)
         }
         array.pop()
-        console.log(`array ${array}`)
-        //up
         }
         for (i of array.reverse()) {
             answer.push(i.shift())
@@ -31,7 +19,6 @@ snail = function (array) {
         if (array.length>0){
             array.reverse()
         }
-        console.log(`array ${array}`)
     }
     return answer
 }
