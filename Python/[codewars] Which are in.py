@@ -1,12 +1,13 @@
 def in_array(array1, array2):
-    result=[]
+    result = []
     for i in array1:
         for j in array2:
-            if j.find(i)!=-1:
+            if j.find(i) != -1:
                 result.append(i)
-    return sorted([str(i)for i in (set(result))])
+    return sorted([str(i) for i in (set(result))])
 
-print(in_array(["arp", "mice", "bull"] , ["lively", "alive", "harp", "sharp", "armstrong"]))
+
+print(in_array(["arp", "mice", "bull"], ["lively", "alive", "harp", "sharp", "armstrong"]))
 # iven two arrays of strings a1 and a2 return a sorted array r in lexicographical order of the strings of a1 which are substrings of strings of a2.
 
 # Example 1:

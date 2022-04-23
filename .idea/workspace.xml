@@ -2,17 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d806b352-fb7f-48e5-b66b-2e2ca4341f09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/training.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/academ2.py" beforeDir="false" afterPath="$PROJECT_DIR$/academ2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/algorithms/quick_sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/algorithms/quick_sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[codewars] Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[codewars] Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[codewars] Which are in.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[codewars] Which are in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[codewars] Who likes it.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[codewars] Who likes it.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[yandexacadem] Interactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[yandexacadem] Interactor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[yandexacadem] Встречалось ли число раньше.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[yandexacadem] Встречалось ли число раньше.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[yandexacadem] Даты.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[yandexacadem] Даты.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[yandexacadem] Дипломы в папках.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[yandexacadem] Дипломы в папках.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[yandexacadem] Дома и магазины.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[yandexacadem] Дома и магазины.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/[yandexacadem] Задача с собеседования.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/[yandexacadem] Задача с собеседования.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/algorithms/selection_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/algorithms/selection_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,11 +41,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\dev\training\Js\algorithms" />
+      <recent name="E:\dev\training" />
+      <recent name="E:\dev\training\Python" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.selection_sort.js">
+    <configuration name="сортировка выбором.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Js/algorithms/сортировка выбором.js" working-dir="$PROJECT_DIR$/Js/algorithms">
+      <method v="2" />
+    </configuration>
+    <configuration name="бинарный поиск.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Js/algorithms/бинарный поиск.js" working-dir="$PROJECT_DIR$/Js/algorithms">
+      <method v="2" />
+    </configuration>
+    <configuration name="selection_sort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Js/algorithms/selection_sort.js" working-dir="$PROJECT_DIR$/Js/algorithms">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.selection_sort.js" />
+        <item itemvalue="Node.js.сортировка выбором.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,11 +82,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639839832084</updated>
-      <workItem from="1643571832711" duration="640000" />
+      <workItem from="1643571832711" duration="1703000" />
+      <workItem from="1643610453229" duration="42000" />
+      <workItem from="1643627759352" duration="116000" />
+      <workItem from="1643649052425" duration="12000" />
+      <workItem from="1643915525918" duration="3539000" />
+      <workItem from="1643998768291" duration="3978000" />
+      <workItem from="1644176723978" duration="7000" />
+      <workItem from="1644516477857" duration="1961000" />
+      <workItem from="1644672221963" duration="134000" />
+      <workItem from="1649351533401" duration="4599000" />
+      <workItem from="1649440788007" duration="3040000" />
+      <workItem from="1649499463791" duration="5635000" />
+      <workItem from="1649606865095" duration="2683000" />
+      <workItem from="1649699244149" duration="110000" />
+      <workItem from="1650301329759" duration="4762000" />
+      <workItem from="1650741684522" duration="683000" />
+      <workItem from="1650742583117" duration="30000" />
+      <workItem from="1650742772197" duration="321000" />
+      <workItem from="1650743106473" duration="117000" />
+      <workItem from="1650743233135" duration="69000" />
+      <workItem from="1650743462757" duration="38000" />
+      <workItem from="1650743513180" duration="32000" />
+      <workItem from="1650743617680" duration="376000" />
+      <workItem from="1650744008252" duration="614000" />
+      <workItem from="1650745328638" duration="35000" />
+      <workItem from="1650745445766" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

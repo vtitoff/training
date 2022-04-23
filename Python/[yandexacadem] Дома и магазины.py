@@ -1,20 +1,19 @@
-prospect=list(map(int, input().split()))
-dist=[0]*len(prospect)
-magazine=-20
+prospect = list(map(int, input().split()))
+dist = [0] * len(prospect)
+magazine = -20
 for i in range(len(prospect)):
-    if prospect[i]==1:
-        dist[i]=i-magazine      
-    if prospect[i]==2:
-        magazine=i
-magazine=20
-for i in range(len(prospect)-1,-1,-1):
-    if prospect[i]==1:
-        if dist[i]>magazine-i:
-            dist[i]=magazine-i
-    if prospect[i]==2:
-        magazine=i
+    if prospect[i] == 1:
+        dist[i] = i - magazine
+    if prospect[i] == 2:
+        magazine = i
+magazine = 20
+for i in range(len(prospect) - 1, -1, -1):
+    if prospect[i] == 1:
+        if dist[i] > magazine - i:
+            dist[i] = magazine - i
+    if prospect[i] == 2:
+        magazine = i
 print(max(dist))
-
 
 # На Новом проспекте построили подряд 10 зданий. Каждое здание может быть либо жилым домом, либо магазином, либо офисным зданием.
 

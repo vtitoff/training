@@ -1,23 +1,23 @@
-close_code=int(input())
-interactor=int(input())
-checker=int(input())
-result=None
-if interactor==0 and close_code!=0:
-    result=3
-elif interactor==0 and close_code==0:
-    result=checker
-elif interactor==1:
-    result=checker
-elif interactor==4 and close_code!=0:
-    result=3
-elif interactor==4 and close_code==0:
-    result=4
-elif interactor==6:
-    result=0
-elif interactor==7:
-    result=1
+close_code = int(input())
+interactor = int(input())
+checker = int(input())
+result = None
+if interactor == 0 and close_code != 0:
+    result = 3
+elif interactor == 0 and close_code == 0:
+    result = checker
+elif interactor == 1:
+    result = checker
+elif interactor == 4 and close_code != 0:
+    result = 3
+elif interactor == 4 and close_code == 0:
+    result = 4
+elif interactor == 6:
+    result = 0
+elif interactor == 7:
+    result = 1
 else:
-    result=interactor
+    result = interactor
 print(result)
 
 # Лена руководит разработкой тестирующей системы, в которой реализованы интерактивные задачи.

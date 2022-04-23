@@ -1,14 +1,16 @@
-def sum_dig_pow(a, b): # range(a, b + 1) will be studied by the function
-    massive=[]
-    for i in range(a, b+1):
-        n=1
-        summary=0
+def sum_dig_pow(a, b):  # range(a, b + 1) will be studied by the function
+    massive = []
+    for i in range(a, b + 1):
+        n = 1
+        summary = 0
         for j in (str(i)):
-            summary+=int(j)**n
-            n+=1
-        if summary==i:
+            summary += int(j) ** n
+            n += 1
+        if summary == i:
             massive.append(i)
-    return [] if massive==[] else massive
+    return [] if massive == [] else massive
+
+
 print(sum_dig_pow(1, 1000))
 
 # The number 89 is the first integer with more than one digit that fulfills the property partially introduced in the title of this kata. What's the use of saying "Eureka"? Because this sum gives the same number.
